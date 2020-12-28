@@ -1,0 +1,82 @@
+<html>
+<head>
+<script src="registration.js" type="text/javascript"></script>
+<link href="registration.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Sea Side Park Hotel</h1>
+<h2>Hotel Registration</h2>
+<form onsubmit="validate()" action="registration.php" method="POST">
+<table>
+<tr>
+<td>Guest Name</td>
+<td><input type="text" name="uname" id="uname"></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="uaddress" id="uaddress"></td>
+</tr>
+<tr>
+<td>Country</td>
+<td><input type="text" name="ucountry" id="ucountry"></td>
+</tr>
+<tr>
+<td>Telephone</td>
+<td><input type="text" name="tel" id="tel"></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="text" name="email" id="email"></td>
+</tr>
+<tr>
+<td>No.Of rooms</td>
+<td><select>
+    <option>select no.of rooms</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+    <option>6</option>
+    <option>more</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Arrival Date</td>
+<td><input type="text" name="Adate"></td>
+<td>Depature Date</td>
+<td><input type="text" name="Ddate"></td>
+</tr>
+<tr>
+<td>Additional special request</td>
+<td><input type="text" name="request" id="request"></td>
+</tr>
+<tr>
+<td>Method of payment</td>
+<td>
+<select>
+     <option>Enter payment method</option>
+     <option>cash</option>
+     <option>credit card</option>
+     <option>visa</option>
+     <option>master card</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Credit Card Number</td>
+<td><input type="text" name="num" id="num"></td>
+</tr>
+<tr>
+<td>Cardholder's Name</td>
+<td><input type="text" name="CHname" id="CHname"></td>
+</tr>
+<tr>
+<td><input type="submit" value="Confirm"></td>
+
+</tr>
+</table>
+</form>
+</body>
+</html>
